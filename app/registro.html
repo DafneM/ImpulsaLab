@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt_BR">
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<title>Impulsa</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/colors/blue.css">
+
+</head>
+<body>
+
+<!-- Wrapper -->
+
+
+<!-- Header Container
+================================================== -->
+
+
+<!-- Titlebar
+================================================== -->
+<div id="titlebar" class="gradient">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<h2>Registro</h2>
+
+				<!-- Breadcrumbs -->
+			<nav id="breadcrumbs" class="dark">
+					<ul>
+						<li><a href="https://www.sunt.com.br/impulsalab">Impulsa</a></li>
+						<li>Registrar conta</li>
+					</ul>
+				</nav>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Page Content
+================================================== -->
+<div class="container">
+	<div class="row">
+		<div class="col-xl-5 offset-xl-3">
+
+			<div class="login-register-page">
+				<!-- Welcome Text -->
+				<div class="welcome-text">
+					<h3 style="font-size: 26px;">Vamos criar sua conta!</h3>
+					<span>já tem uma conta?<a href="login.html">Conecte-se!</a></span>
+				</div>
+
+				<!-- Account Type -->
+				<div class="account-type">
+					<div>
+						<input type="radio" name="account-type-radio" id="freelancer-radio" class="account-type-radio" checked/>
+						<label for="freelancer-radio" class="ripple-effect-dark"><i class="icon-material-outline-account-circle"></i>Sou estudante</label>
+					</div>
+
+					<div>
+						<input type="radio" name="account-type-radio" id="employer-radio" class="account-type-radio"/>
+						<label for="employer-radio" class="ripple-effect-dark"><i class="icon-material-outline-business-center"></i> Sou empresa</label>
+					</div>
+				</div>
+					
+				<!-- Form -->
+				<form method="post" id="register-account-form">
+					<div class="input-with-icon-left">
+						<i class="icon-material-baseline-mail-outline"></i>
+						<input type="text" class="input-text with-border" name="emailaddress-register" id="emailaddress-register" placeholder="Email " required/>
+					</div>
+
+					<div class="input-with-icon-left" title="Should be at least 8 characters long" data-tippy-placement="bottom">
+						<i class="icon-material-outline-lock"></i>
+						<input type="password" class="input-text with-border" name="password-register" id="password-register" placeholder="Senha" required/>
+					</div>
+
+					<div class="input-with-icon-left">
+						<i class="icon-material-outline-lock"></i>
+						<input type="password" class="input-text with-border" name="password-repeat-register" id="password-repeat-register" placeholder="Repita a senha" required/>
+					</div>
+				</form>
+				
+				<!-- Button -->
+				<button class="button full-width button-sliding-icon ripple-effect margin-top-10" type="submit" form="login-form">Register <i class="icon-material-outline-arrow-right-alt"></i></button>
+				
+				<!-- Social Login -->
+				<div class="social-login-separator"><span>or</span></div>
+				<div class="social-login-buttons">
+					<button class="facebook-login ripple-effect"><i class="icon-brand-facebook-f"></i> Register via Facebook</button>
+					<button class="google-login ripple-effect"><i class="icon-brand-google-plus-g"></i> Register via Google+</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<p>
+  <!-- Footer / End -->
+</p>
+<p>&nbsp; </p>
+</body>
+</html>
